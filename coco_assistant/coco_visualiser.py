@@ -178,7 +178,7 @@ def visualise_single(ann, folder, img_filename):
 if __name__ == "__main__":
     # Get Annotations Dir and Image folder
     folder = "test"
-    annFile = os.path.join(os.getcwd(), 'annotations', "iSAID_{}.json".format(folder))
+    annFile = os.path.join(os.getcwd(), "seg.json".format(folder))
     ann = COCO(annFile)
     # Visualisation Modes
     #visualise_all(ann, folder)

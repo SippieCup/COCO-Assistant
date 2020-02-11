@@ -68,6 +68,6 @@ def det2seg(cann, output_dir):
 
 
 if __name__ == "__main__":
-    ann = COCO('/home/ashwin/Desktop/Projects/COCO-Assistant/data/annotations/tiny2.json')
-    output_dir = "/home/ashwin/Desktop/Projects/COCO-Assistant/data/annotations/seg"
+    ann = COCO('/opt/freezer/hyperlocal_testing/hyperlocal/ml/merge_datasets/COCO-Assistant/coco_assistant/utils/seg.json')
+    output_dir = "./result"
     det2seg(ann, output_dir)
